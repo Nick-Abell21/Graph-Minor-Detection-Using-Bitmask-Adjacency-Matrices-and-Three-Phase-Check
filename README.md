@@ -1,2 +1,2 @@
 # Graph-minors-using-phased-check-and-bitmasks
-Reduces memory usage by converting graphs to bitmasks and systematically checks minor relation through a three-phased check: edge contractions, vertex deletions, and edge deletions
+This repository contains a Python implementation (using SageMath) for checking whether one graph is a minor of another. The algorithm represents graphs with adjacency bitmasks and follows a three-phase approach: edge contraction, vertex deletion, and edge deletion.
